@@ -164,7 +164,7 @@ export class ResponseModule {
             await embedHypotheticalData(hypotheticalData, providers.openai);
           queueIndicator({
             controller,
-            status: "Reading through documents",
+            status: "Scanning through documents",
             icon: "searching",
           });
           const chunks: Chunk[] = await searchForChunksUsingEmbedding(
