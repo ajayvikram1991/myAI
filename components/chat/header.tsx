@@ -32,7 +32,7 @@ export default function ChatHeader({
             size="sm"
           >
             <EraserIcon className="w-4 h-4" />
-            <span>{CLEAR CHAT}</span>
+            <span>{CLEAR_CHAT}</span>
           </Button>
         </div>
       </div>
