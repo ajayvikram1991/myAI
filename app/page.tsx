@@ -18,12 +18,6 @@ export default function Chat() {
     clearMessages,
   } = useApp();
 
-  export default function Home() {
-  useEffect(() => {
-    // Clear chat history from localStorage on every refresh
-    localStorage.removeItem('chatHistory');
-  }, []);
-
   return (
     <>
       <ChatHeader clearMessages={clearMessages} />
@@ -39,10 +33,5 @@ export default function Chat() {
         isLoading={isLoading}
       />
     </>
-  );
-  return (
-    <div>
-      {/* Your existing chat UI */}
-    </div>
   );
 }
